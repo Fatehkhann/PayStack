@@ -7,10 +7,14 @@
 //
 
 import SwiftUI
+import Paystack
+import UIKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello PayStack")
+        VStack {
+            VCSwiftUIView(storyboard: "Storyboard", VC: "initialVC")
+        }
     }
 }
 

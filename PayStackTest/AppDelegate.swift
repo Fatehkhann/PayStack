@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Paystack
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Paystack.setDefaultPublicKey("pk_test_6d8df42bd0fa8500c4b39d01cf38111eb5c9b8c3")
         return true
     }
 

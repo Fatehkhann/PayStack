@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3673BADBEF0BF54EF82F68CD /* Pods_PayStackTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDE0F321C0B37131822D8CA /* Pods_PayStackTest.framework */; };
 		F7005E4324095EBB0002BF51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7005E4224095EBB0002BF51 /* AppDelegate.swift */; };
 		F7005E4524095EBB0002BF51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7005E4424095EBB0002BF51 /* SceneDelegate.swift */; };
 		F7005E4724095EBB0002BF51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7005E4624095EBB0002BF51 /* ContentView.swift */; };
 		F7005E4924095EBD0002BF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7005E4824095EBD0002BF51 /* Assets.xcassets */; };
 		F7005E4C24095EBD0002BF51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7005E4B24095EBD0002BF51 /* Preview Assets.xcassets */; };
 		F7005E4F24095EBD0002BF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7005E4D24095EBD0002BF51 /* LaunchScreen.storyboard */; };
+		F7CC9BB5240AA36A009E9246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC9BB1240AA369009E9246 /* ViewController.swift */; };
+		F7CC9BB6240AA36A009E9246 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CC9BB2240AA36A009E9246 /* Storyboard.storyboard */; };
+		F7CC9BB7240AA36A009E9246 /* VCSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC9BB3240AA36A009E9246 /* VCSwiftUIView.swift */; };
+		F7CC9BB8240AA36A009E9246 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC9BB4240AA36A009E9246 /* HostingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		278D3E08664BE3F0805028F0 /* Pods-PayStackTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayStackTest.debug.xcconfig"; path = "Target Support Files/Pods-PayStackTest/Pods-PayStackTest.debug.xcconfig"; sourceTree = "<group>"; };
+		36468B6C03182CE9B2AD2DE9 /* Pods-PayStackTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayStackTest.release.xcconfig"; path = "Target Support Files/Pods-PayStackTest/Pods-PayStackTest.release.xcconfig"; sourceTree = "<group>"; };
+		CEDE0F321C0B37131822D8CA /* Pods_PayStackTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayStackTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7005E3F24095EBB0002BF51 /* PayStackTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayStackTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7005E4224095EBB0002BF51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7005E4424095EBB0002BF51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		F7005E4B24095EBD0002BF51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7005E4E24095EBD0002BF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7005E5024095EBD0002BF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CC9BB1240AA369009E9246 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7CC9BB2240AA36A009E9246 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		F7CC9BB3240AA36A009E9246 /* VCSwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSwiftUIView.swift; sourceTree = "<group>"; };
+		F7CC9BB4240AA36A009E9246 /* HostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3673BADBEF0BF54EF82F68CD /* Pods_PayStackTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BE7093BF8C20886AFF79961 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				278D3E08664BE3F0805028F0 /* Pods-PayStackTest.debug.xcconfig */,
+				36468B6C03182CE9B2AD2DE9 /* Pods-PayStackTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BDF492C8C3ED42E6F8F25D75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE0F321C0B37131822D8CA /* Pods_PayStackTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F7005E3624095EBB0002BF51 = {
 			isa = PBXGroup;
 			children = (
 				F7005E4124095EBB0002BF51 /* PayStackTest */,
 				F7005E4024095EBB0002BF51 /* Products */,
+				0BE7093BF8C20886AFF79961 /* Pods */,
+				BDF492C8C3ED42E6F8F25D75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +94,10 @@
 				F7005E4824095EBD0002BF51 /* Assets.xcassets */,
 				F7005E4D24095EBD0002BF51 /* LaunchScreen.storyboard */,
 				F7005E5024095EBD0002BF51 /* Info.plist */,
+				F7CC9BB4240AA36A009E9246 /* HostingController.swift */,
+				F7CC9BB2240AA36A009E9246 /* Storyboard.storyboard */,
+				F7CC9BB3240AA36A009E9246 /* VCSwiftUIView.swift */,
+				F7CC9BB1240AA369009E9246 /* ViewController.swift */,
 				F7005E4A24095EBD0002BF51 /* Preview Content */,
 			);
 			path = PayStackTest;
@@ -82,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7005E5324095EBD0002BF51 /* Build configuration list for PBXNativeTarget "PayStackTest" */;
 			buildPhases = (
+				0C5672A5EA5D5B565690F544 /* [CP] Check Pods Manifest.lock */,
 				F7005E3B24095EBB0002BF51 /* Sources */,
 				F7005E3C24095EBB0002BF51 /* Frameworks */,
 				F7005E3D24095EBB0002BF51 /* Resources */,
+				9859A0300D794C7571A2989D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7005E4F24095EBD0002BF51 /* LaunchScreen.storyboard in Resources */,
+				F7CC9BB6240AA36A009E9246 /* Storyboard.storyboard in Resources */,
 				F7005E4C24095EBD0002BF51 /* Preview Assets.xcassets in Resources */,
 				F7005E4924095EBD0002BF51 /* Assets.xcassets in Resources */,
 			);
@@ -141,13 +180,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C5672A5EA5D5B565690F544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayStackTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9859A0300D794C7571A2989D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayStackTest/Pods-PayStackTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayStackTest/Pods-PayStackTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayStackTest/Pods-PayStackTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7005E3B24095EBB0002BF51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7CC9BB8240AA36A009E9246 /* HostingController.swift in Sources */,
 				F7005E4324095EBB0002BF51 /* AppDelegate.swift in Sources */,
 				F7005E4524095EBB0002BF51 /* SceneDelegate.swift in Sources */,
+				F7CC9BB5240AA36A009E9246 /* ViewController.swift in Sources */,
+				F7CC9BB7240AA36A009E9246 /* VCSwiftUIView.swift in Sources */,
 				F7005E4724095EBB0002BF51 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +366,7 @@
 		};
 		F7005E5424095EBD0002BF51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 278D3E08664BE3F0805028F0 /* Pods-PayStackTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +387,7 @@
 		};
 		F7005E5524095EBD0002BF51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36468B6C03182CE9B2AD2DE9 /* Pods-PayStackTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
